@@ -93,3 +93,32 @@ Search engines use heading hierarchy for SEO, so use them meaningfully, not just
 - Purpose: Indicates side comments or fine print — less important text
 - Default Styling: Smaller font size.
 
+#   Chapter 03
+## HTML List Tags – ul, li, ol, dl, and dt Explained
+
+
+### `<ul>` → Unordered List
+- Purpose: Creates a bulleted list (no numbers, just bullets)
+- Default Style: Bullet points (•) before each item
+- Usage: Used when order does not matter
+
+### `<li>` →  List Item
+- Purpose: Represents a single item inside either `<ul>` (unordered list) or `<ol>` (ordered list).
+- Usage: Cannot be used alone — must be inside `<ul>` or `<ol>`
+
+### `<ol>` → Ordered List
+- Purpose: Creates a numbered list (1, 2, 3 or a, b, c)
+- Default Style: Numbers (1, 2, 3...) before each item
+- Usage: Used when order matters
+
+Purpose: Creates a numbered list (1, 2, 3 or a, b, c).
+
+Default Style: Numbers (1, 2, 3...) before each item.
+
+### You can also change numbering style
+`<ol type="A">`
+
+### `<dl>` – Definition List
+- Purpose: Creates a list of terms and their definitions
+- Structure: Uses `<dt>` for the term and `<dd>` for the definition.
+- Usage: Similar to a dictionary layout.
