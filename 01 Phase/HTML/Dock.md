@@ -61,3 +61,35 @@ Mobile responsiveness ke liye important.
 - Forms
 - Videos
 - etc.
+
+#  Chapter 02
+## HTML Basic Text & Structure Tags
+
+### `<h>` → (actually `<h1>` to `<h6>`)
+
+Purpose: Heading tags for defining headings in a document.
+1. `<h1>`→ Highest (main) heading
+2. `<h2>`→ Lowest (smallest) heading
+
+Search engines use heading hierarchy for SEO, so use them meaningfully, not just for size.
+
+### `<p>` 
+- Purpose: Defines a paragraph of text
+- Behavior: Automatically adds some space before and after the text
+
+### `<hr>`
+- Purpose: Creates a horizontal rule (line) to visually separate content.
+- In HTML5, it’s considered a thematic break, not just a design element.
+
+### `<br>`
+- Purpose: Inserts a line break inside text (without starting a new paragraph)
+- Use `<br>` only for text line breaks (like addresses or poems), not for layout
+
+### `<strong>`
+- Purpose: Semantically marks text as important (not just bold visually)
+- Default Styling: Usually bold
+
+### `<small>`
+- Purpose: Indicates side comments or fine print — less important text
+- Default Styling: Smaller font size.
+
