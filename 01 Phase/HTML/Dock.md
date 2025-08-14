@@ -160,3 +160,24 @@ Controls how much referrer info is sent
 <a href="javascript:alert('Hi!')">Run JS</a>
 <a href="#section2">Go to Section 2</a>
  ```
+
+# Chapter 05
+## Understanding the HTML `<img>` Tag and Its Attributes
+
+```
+<img 
+src="cat.jpg" 
+alt="A cute cat" 
+width="300" 
+height="200" 
+loading="lazy" 
+title="This is a cat">
+ ```
+
+- `src`	Specifies the path (URL) to the image file.
+- `alt`	Provides alternative text if the image cannot be displayed (important for accessibility & SEO).
+- `width`	Sets the width of the image (in pixels or %).
+- `height`	Sets the height of the image (in pixels or %).
+- `loading`	Controls loading behavior (lazy, eager).
+- `title`	Adds a tooltip when you hover over the image.
+- `srcset`	Allows different image sizes for different devices (responsive images).
