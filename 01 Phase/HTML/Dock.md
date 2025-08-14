@@ -122,3 +122,41 @@ Default Style: Numbers (1, 2, 3...) before each item.
 - Purpose: Creates a list of terms and their definitions
 - Structure: Uses `<dt>` for the term and `<dd>` for the definition.
 - Usage: Similar to a dictionary layout.
+
+#   Chapter 04
+## `<a>` Understanding the  Attribute in HTML Anchor Tags
+
+```
+<a href="https://example.com/report.pdf"
+   target="_blank"
+   rel="noopener noreferrer"
+   download="AnnualReport.pdf"
+   hreflang="en"
+   type="application/pdf"
+   referrerpolicy="no-referrer">
+   Download Report
+</a>
+```
+
+- `href` → Destination URL (HTTP, mailto, tel, file, fragment, etc.)
+- `target` Where to open the link
+-  Relationship between current and linked document (nofollow, noopener)
+- `download`
+Forces download instead of navigation (same-origin only)
+- `type`
+MIME type of the linked resource
+- `hreflang`
+Language of the linked document
+- `ping`
+Space-separated list of URLs for tracking pings when the link is clicked
+- `referrerpolicy`
+Controls how much referrer info is sent
+
+### You can use different protocols in href
+```
+<a href="mailto:someone@example.com">Email us</a>
+<a href="tel:+1234567890">Call now</a>
+<a href="sms:+1234567890">Send SMS</a>
+<a href="javascript:alert('Hi!')">Run JS</a>
+<a href="#section2">Go to Section 2</a>
+ ```
