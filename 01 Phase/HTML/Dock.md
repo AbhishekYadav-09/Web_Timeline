@@ -181,3 +181,65 @@ title="This is a cat">
 - `loading`	Controls loading behavior (lazy, eager).
 - `title`	Adds a tooltip when you hover over the image.
 - `srcset`	Allows different image sizes for different devices (responsive images).
+
+# Chapter 06
+## HTML Table Structure and Elements Explained
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Table</title>
+</head>
+<body>
+
+<table border="1">
+    <caption>Student Marks Report</caption>
+    
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>Abhishek</td>
+            <td>95</td>
+            <td>89</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Priya</td>
+            <td>85</td>
+            <td>92</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Rahul</td>
+            <td>78</td>
+            <td>85</td>
+            <td>80</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
+
+```
+- `<table>`	Table	Yeh pura table banane ka container hota hai.
+- `<caption>`	Caption	Table ka title/heading show karta hai (by default top me).
+- `<tr>`	Table Row	Ek horizontal row banata hai table me.
+- `<th>`	Table Header	Row ke header cells ke liye hota hai (bold & centered by default).
+- `<td>`	Table Data	Normal data cell ke liye hota hai.
+- `<thead>`	Table Head	Header section ko group karta hai (mostly `<th>` ke sath).
+- `<tbody>`	Table Body	Table ka main data section.
