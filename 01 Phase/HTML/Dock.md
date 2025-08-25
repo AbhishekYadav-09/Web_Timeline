@@ -280,3 +280,23 @@ Bada text input dene ke liye (multi-line).
 - type="submit" → Form ko submit karta hai.
 
 - type="button" → Bas ek button hota hai, kaam manually JS se karte hain.
+
+
+# #  Chapter 09
+## Semantic HTML vs Non-Semantic HTML
+
+`<header>` → website ya section ka heading area.
+
+`<nav>` → navigation links ke liye.
+
+`<main>` → page ka main content.
+
+`<section>` → content ka ek logical section (topics, chapters, etc).
+
+`<article>` → independent content (blog, news, etc).
+
+`<aside>` → sidebar ya extra info.
+
+`<footer>` → footer ke liye.
+
+ Ye SEO-friendly hote hain aur screen readers (accessibility tools) ko help karte hain.
