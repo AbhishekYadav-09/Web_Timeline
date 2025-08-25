@@ -282,7 +282,7 @@ Bada text input dene ke liye (multi-line).
 - type="button" → Bas ek button hota hai, kaam manually JS se karte hain.
 
 
-# #  Chapter 09
+#   Chapter 09
 ## Semantic HTML vs Non-Semantic HTML
 
 `<header>` → website ya section ka heading area.
@@ -300,3 +300,39 @@ Bada text input dene ke liye (multi-line).
 `<footer>` → footer ke liye.
 
  Ye SEO-friendly hote hain aur screen readers (accessibility tools) ko help karte hain.
+
+
+
+#  Chapter 09
+## Multimedia in HTML – video, audio, and iframe embedding
+
+
+### `<video>` Tag
+
+Used to embed videos directly in a webpage.
+
+- Attributes:
+
+- `src` → video file path (local/video.mp4 or URL).
+
+- `poster` → image shown before video starts.
+
+- `width / height` → size of video.
+
+- `controls` → shows play/pause/volume bar.
+
+- `muted, autoplay, loop` → control playback behavior.
+
+### `<iframe>` Tag
+
+Embeds another web page or external content (like YouTube videos) inside your webpage.
+
+- Attributes:
+
+- `src` → link of the video/page.
+
+- `width / height` → size.
+
+- `frameborder` → border thickness (0 = no border).
+
+- `title` → accessibility label.
