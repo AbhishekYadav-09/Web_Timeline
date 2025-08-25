@@ -243,3 +243,40 @@ title="This is a cat">
 - `<td>`	Table Data	Normal data cell ke liye hota hai.
 - `<thead>`	Table Head	Header section ko group karta hai (mostly `<th>` ke sath).
 - `<tbody>`	Table Body	Table ka main data section.
+
+#  Chapter 08
+## HTML Form Elements and Their Usage
+
+`<fieldset>`
+ Form ke elements ko ek box ke andar group karne ke liye use hota hai.
+
+`<legend>`
+ Fieldset ka title hota hai (jo box ke top pe dikhata hai).
+
+`<label>`
+Input field ke liye description deta hai (like "Enter email").
+for="id" use karne se, agar label pe click karein to input active ho jata hai.
+
+`<input>` Types
+
+- type="text" → Normal text field.
+
+- type="password" → Password hide karke input leta hai.
+
+- type="checkbox" → Multiple select option ke liye.
+
+- type="radio" → Sirf ek select option ke liye (same group name dena padta hai).
+
+- type="date" → Date picker open karta hai.
+
+`<select> and <option>`
+Dropdown banane ke liye use hota hai.
+
+`<textarea>`
+Bada text input dene ke liye (multi-line).
+
+`<button>`
+
+- type="submit" → Form ko submit karta hai.
+
+- type="button" → Bas ek button hota hai, kaam manually JS se karte hain.
