@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: rgb(46, 46, 46);
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    border: 2px solid red;
+    height: 90vh;
+    width: 90vw;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
+    flex-grow: inherit;
+}
+.row{
+    display: flex;
+    flex-grow: 10;
+    border: 2px solid wheat;
+    height: 50px;
+    width: 20%;
+}
+/* .row1{
+    display: flex;
+    flex-grow: 2;
+    border: 2px solid wheat;
+    height: 50px;
+    width: 20%;
+} */
