@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<form >
+    <!-- <fieldset>
+        <legend>HTML FORM</legend>
+        <input type="text" id="email" placeholder="abhi@gmail.com">
+        <label for="email"> Enter email</label>
+        <br>
+        <br>
+        <label for="password">Enter Password</label>
+        <input type="text" id="password">
+        <br>
+        <button type="submit">submit</button>
+        
+        <input type="checkbox">
+        <input type="radio">
+        
+        <input type="date" id="datepicker" >
+        <label for="datepicker"></label>
+        
+        <select name="dishes" id="selector1">
+            <option value="maggi">Maggi</option>
+            <option value="maggi">Kurkure</option>
+            <option value="maggi">Chips</option>
+        </select>
+        <label for="selector1">your dishes</label>
+        <br>
+        <br>
+    <button>Main Hu Button</button>
+    <textarea name="textarea1" id="textarea1" cols="30" rows="10" placeholder="Enter Text"></textarea>
+
+    
+</fieldset> -->
+
+<h1>HTML Form Example</h1>
+
+<form action="/submit" method="post">
+  <fieldset>
+    <legend>User Registration</legend>
+
+    <!-- Email -->
+    <label for="email">Enter Email:</label>
+    <input type="email" id="email" name="email" placeholder="abhi@gmail.com" required>
+    <br><br>
+
+    <!-- Password -->
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Checkbox -->
+    <label>
+      <input type="checkbox" name="subscribe"> Subscribe to newsletter
+    </label>
+    <br><br>
+
+    <!-- Radio -->
+    Gender: 
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+    <br><br>
+
+    <!-- Date -->
+    <label for="datepicker">Choose Date:</label>
+    <input type="date" id="datepicker" name="dob">
+    <br><br>
+
+    <!-- Dropdown -->
+    <label for="selector1">Choose your dish:</label>
+    <select name="dishes" id="selector1">
+      <option value="maggi">Maggi</option>
+      <option value="kurkure">Kurkure</option>
+      <option value="chips">Chips</option>
+    </select>
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="textarea1">Your Message:</label><br>
+    <textarea name="message" id="textarea1" cols="30" rows="5" placeholder="Enter Text"></textarea>
+    <br><br>
+
+    <!-- Buttons -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </fieldset>
+</form>
+
+
+</form>
+
+
+</body>
+</html>
